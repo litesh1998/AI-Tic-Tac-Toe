@@ -9,11 +9,11 @@ cpu = "O"
 
 def displayBoard(x):
     os.system('cls')
-    print(' 1 | 2 | 3            {:1} | {:1} | {:1} '.format(x[0], x[1], x[2]))
-    print('---+---+---          ---+---+---')
-    print(' 4 | 5 | 6            {:1} | {:1} | {:1} '.format(x[3], x[4], x[5]))
-    print('---+---+---          ---+---+---')
-    print(' 7 | 8 | 9            {:1} | {:1} | {:1} '.format(x[6], x[7], x[8]))
+    print(' {:1} | {:1} | {:1} '.format(x[6], x[7], x[8]))
+    print('---+---+---')
+    print(' {:1} | {:1} | {:1} '.format(x[3], x[4], x[5]))
+    print('---+---+---')
+    print(' {:1} | {:1} | {:1} '.format(x[0], x[1], x[2]))
 
 
 def checkwin(lst):
