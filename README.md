@@ -4,8 +4,12 @@ This python based program used game map Artificial Intelligence technique  to ca
 The following figure depicts the controls to play the game.
 
 
-   1 | 2 | 3            
----+---+---          
-   4 | 5 | 6              
----+---+---          
-   7 | 8 | 9              
+```python
+'''
+ 7 | 8 | 9 
+---+---+---
+ 4 | 5 | 6 
+---+---+---
+ 1 | 2 | 3
+'''
+```
